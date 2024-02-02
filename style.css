@@ -1,0 +1,35 @@
+body {
+    font-family: 'Lora', serif;
+    background-color: hsl(60, 27%, 90%);
+    color: #531ba6;
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Add this new style for the bottom link */
+.bottom-link {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.bottom-link ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-link li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.bottom-link a {
+    text-decoration: none;
+    color: #531ba6;
+}
