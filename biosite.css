@@ -1,11 +1,9 @@
-
-*{box-sizing: border-box;}
+{ box-sizing: border-box; }
 header, main, nav, footer, figure, figcaption { display: block; }
-body { 
-    font-family: Verdana, Arial, sans-serif;
-    background-color: #aeb2b0;
-    margin: 0;
-    background-image: linear-gradient(to bottom, #ffffff, #666666);
+body { font-family: Verdana, Arial, sans-serif;
+       background-color: #aeb2b0;
+	   margin: 0;
+	   background-image: linear-gradient(to bottom, #ffffff, #666666);
 }
 #wrapper { min-width: 40px;
            max-width: 1024px;
@@ -25,9 +23,40 @@ header { font-family: Georgia,"Times New Roman", serif;
 }
 header h1 { padding-left: 220px;
           padding-top: 40px;
-		  margin: 0; 
-		 text-shadow: 3px 3px #998d45;
+		  margin: 0;		
+		 font-size: 4em;
  }
+
+ .main img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 20px 0;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image-container {
+	text-align: center;
+  }
+  
+  .image-container img {
+	display: block;
+	margin: 10px 50px ;
+	margin-bottom: 50px;
+	margin-top: 10px;
+  }
+  main {
+	background-color: #ffffff;
+	color: #000000;
+	padding: 10px 20px;
+	overflow: auto;
+	min-height: 400px;
+  }
+  
+  main p {
+	line-height: 2; /* Adjust the line height as needed for better readability */
+	margin-bottom: 15px;
+  }
 nav {  background-color: #99bab2; 
 	   letter-spacing: 0.1em;
 	   font-weight: bold;
