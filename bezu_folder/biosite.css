@@ -42,7 +42,7 @@ main {
   }
   
   main p {
-	line-height: 2; /* Adjust the line height as needed for better readability */
+	line-height: 2; 
 	margin-bottom: 15px;
   }
 nav ul { list-style-type: none; 

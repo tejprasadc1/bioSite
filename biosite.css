@@ -54,7 +54,7 @@ header h1 { padding-left: 220px;
   }
   
   main p {
-	line-height: 2; /* Adjust the line height as needed for better readability */
+	line-height: 2; 
 	margin-bottom: 15px;
   }
 nav {  background-color: #99bab2; 
