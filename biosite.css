@@ -42,8 +42,9 @@ header h1 { padding-left: 220px;
   .image-container img {
 	display: block;
 	margin: 10px 50px ;
-	margin-bottom: 50px;
-	margin-top: 10px;
+	margin-bottom: 100px;
+	margin-top: 25px;
+	margin-left: ;
   }
   main {
 	background-color: #ffffff;
@@ -54,8 +55,8 @@ header h1 { padding-left: 220px;
   }
   
   main p {
-	line-height: 2; 
-	margin-bottom: 15px;
+	line-height: 1.7; 
+	margin-bottom: 3px;
   }
 nav {  background-color: #99bab2; 
 	   letter-spacing: 0.1em;
@@ -103,6 +104,13 @@ h2 { color: #4e0000;
      font-family: arial, sans-serif;
 	 margin: 5px;
 }
+ 
+h3 { color: #1e10e2; 
+     font-family: arial, sans-serif;
+	 margin: 5px;
+}
+
+
 footer {font-size:80%;
          text-align: center;
          padding: 10px;
