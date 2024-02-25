@@ -1,4 +1,3 @@
-{ box-sizing: border-box; }
 header, main, nav, footer, figure, figcaption { display: block; }
 body { font-family: Verdana, Arial, sans-serif;
        background-color: #aeb2b0;
